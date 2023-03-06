@@ -1,5 +1,6 @@
 package org.launchcode.techjobs.mvc.models;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Job {

@@ -23,6 +23,15 @@ public class JobData {
     private static boolean isDataLoaded = false;
 
     private static ArrayList<Job> allJobs;
+
+    public static ArrayList<Job> getAllJobs() {
+        return allJobs;
+    }
+
+    public static void setAllJobs(ArrayList<Job> allJobs) {
+        JobData.allJobs = allJobs;
+    }
+
     private static ArrayList<Employer> allEmployers = new ArrayList<>();
     private static ArrayList<Location> allLocations = new ArrayList<>();
     private static ArrayList<PositionType> allPositionTypes = new ArrayList<>();
